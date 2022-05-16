@@ -14,8 +14,6 @@ public class Main {
         int Loop = myScanner.nextInt();
 
         for(int q =0;q < Loop;q++ ) {
-
-
             System.out.println(" Enter height of wall ");
             leng = myScanner.nextDouble();
             System.out.println(" Enter width of wall ");
@@ -25,8 +23,6 @@ public class Main {
             System.out.println(" Is there a Socket or window True or False ");
             boolean a = myScanner.nextBoolean();
             if (a) {
-
-
                 System.out.println(" Enter height of wall ");
                 double len = myScanner.nextDouble();
                 System.out.println(" Enter width of wall ");
@@ -39,7 +35,7 @@ public class Main {
             System.out.println(" How many liters in a bucket of paint ");
             double z = myScanner.nextDouble();
 
-            myArray.add(" You will need "+ (area /bucket)+" liters of paint  to  cover the wall of "+ area + " You will need "+ (area/bucket)/z + " buckets \n");
+            myArray.add(" You will need "+ (area / bucket)+" liters of paint  to  cover the wall of "+ area + " You will need "+ (area/bucket)/z + " buckets \n");
 
         }
         System.out.println(myArray);
